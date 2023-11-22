@@ -10,7 +10,7 @@ font-size: 36px;
 margin-left: 10px;
 margin-top: 0px;
 margin-bottom: 0px;
-color: #F25252;
+color: #F23D3D;
 }
 
 .quiz-page h2 {
@@ -18,7 +18,7 @@ color: #F25252;
   font-size: 16px;
   margin-left: 10px;
   margin-top: 0px;
-  color: #F25252;
+  color: #F23D3D;
 }
 
 .quiz-page h3 {
@@ -30,11 +30,10 @@ color: #F25252;
   right: 0px;
   word-wrap: break-word;
   font-size: 24px;
-  color: #F25252;
+  color: #F23D3D;
 }
 
 .quiz-page p {
-  margin: 10px;
   font-size: 14px;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
@@ -102,7 +101,7 @@ color: #F25252;
   word-wrap: break-word;
   padding: 4px;
   font-size: 14px;
-  background-color: #F25252;
+  background-color: #F23D3D;
   transition: background-color 0.3s;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   position: relative;
@@ -116,6 +115,7 @@ color: #F25252;
 .quiz-page .quiz-question{
   width: 350px;
   position: relative;
+  margin-left: 10px;
   top: 80px;
   word-wrap: break-word;
 }
@@ -125,6 +125,7 @@ color: #F25252;
   word-wrap: break-word;
   position: relative;
   top: 80px;
+  margin-right: 10px;
 }
 
 .quiz-page button {
@@ -187,7 +188,6 @@ color: #F25252;
 
   .quiz-page p{
     font-size: 18px;
-    margin-left: 20px;
   }
 
   .quiz-page li {

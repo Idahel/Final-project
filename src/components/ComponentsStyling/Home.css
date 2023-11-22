@@ -1,7 +1,7 @@
 body.home-page {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 1px;
-  background-color: #F25252;
+  background-color: #F23D3D;
 }
 
 .home-page h1 {
@@ -23,7 +23,7 @@ body.home-page {
 
 .home-page h3 {
   text-align: right;
-  width: 300px;
+  width: 200px;
   position: fixed;
   top: 120px;
   right: 0px;
@@ -37,8 +37,9 @@ body.home-page {
 .home-page p {
   margin: 20px;
   font-size: 14px;
-  position: fixed;
-  top: 200px;
+  width: 300px;
+  position: relative;
+  top: 80px;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
@@ -81,34 +82,17 @@ body.home-page {
 }
 
 
-.home-page .quiz-ul {
-  list-style: none;
-  padding: 0;
-  margin-left: 20px;
-  flex-direction: column;
+.home-page .highlighted-text {
+  word-wrap: break-word;
+  padding: 2px; /* Adjust the padding for space around the highlighted text */
+  line-height: 1.5;
 }
 
-.home-page .quiz-li {
-  cursor: pointer;
-  margin-right: 20px;
-  margin-bottom: 10px;
-  text-align: left;
-  width: 400px;
-  padding: 4px;
-  font-size: 14px;
-  background-color: #FFFF;
-  transition: background-color 0.3s;
+::selection {
+  background-color:  #FFFF;
 }
 
-.home-page .quiz-question{
-  width: 400px;
-}
-
-.home-page .quiz-explanation {
-  width: 400px;
-}
-
-@media (min-width: 675px) {
+@media (min-width: 769px) {
 
   .home-page h1 {
     font-size: 64px;
@@ -122,15 +106,16 @@ body.home-page {
     text-align: right;
     margin-right: 20px;
     font-size: 48px;
-    width: 600px;
+    width: 400px;
     top: 200px;
     right: 0px;
   }
 
   .home-page p {
     font-size: 18px;
-    position: fixed;
-    top: 380px;
+    position: relative;
+    top: 150px;
+    width: 800px;
   }
 
   .home-page li {
@@ -139,4 +124,14 @@ body.home-page {
     margin-right: 30px;
     padding: 3px;
   }
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+@media (max-width: 480px) {
+
+  
 }
