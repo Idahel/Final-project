@@ -58,11 +58,21 @@ body.home-page {
 .home-page p {
   margin-left: 20px;
   font-size: 14px;
-  word-wrap: break-word;
   width: 60%;
   position: relative;
   top: -20px;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  direction: ltr;
+  text-align:justify;
+  word-break: break-word;
+  white-space: pre-line;
+  overflow-wrap: break-word;
+  -ms-word-break: break-word;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
 
@@ -141,7 +151,7 @@ body.home-page {
     font-size: 18px;
     top: -30px;
     width: 50%;
-  }
+    }
 
   .home-page li {
     width: 140px;

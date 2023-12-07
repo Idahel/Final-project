@@ -27,7 +27,6 @@ body.tips-page {
   position: relative;
   top: 10px;
   margin-left: auto;
-  word-wrap: break-word;
   margin-right: 20px;
   font-size: 24px;
   color: #FFFF;
@@ -41,18 +40,27 @@ body.tips-page {
   width: 60%;
   position: relative;
   top: 0px;
-  word-wrap: break-word;
   color: #FFFF;
 }
 
 .tips-page p {
   margin-left: 20px;
   font-size: 14px;
-  word-wrap: break-word;
   width: 60%;
   position: relative;
   top: -20px;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  direction: ltr;
+  text-align:justify;
+  word-break: break-word;
+  white-space: pre-line;
+  overflow-wrap: break-word;
+  -ms-word-break: break-word;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
 
