@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { App } from "./App.jsx";
 import { Provider } from "react-redux";
 import { configureStore } from '@reduxjs/toolkit';
 import { quiz } from './reducers/quiz';
@@ -10,6 +9,7 @@ import "./pages/pagestyling/Secondhandstorespage.css";
 import "./pages/pagestyling/Tipspage.css";
 import "./pages/pagestyling/Home.css";
 import "./pages/pagestyling/Storedetailpage.css";
+import App from "./App.jsx";
 
 
 const store = configureStore({

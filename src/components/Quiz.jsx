@@ -30,7 +30,6 @@ const Quiz = () => {
 
   const handleQuizCompletion = useCallback(() => {
     const correctAnswersCount = quizState.answers.filter((answer) => answer.isCorrect).length;
-    const grade = calculateGrade(correctAnswersCount);
 
     setQuizCompleted(true);
   }, [quizState]);
