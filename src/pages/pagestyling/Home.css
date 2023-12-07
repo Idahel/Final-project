@@ -38,15 +38,17 @@ body.home-page {
   text-align: left;
   font-size: 18px;
   margin-left: 20px;
+  width: 60%;
   position: relative;
   top: 0px;
+  word-wrap: break-word;
   color: #FFFF;
 }
 
 .home-page h5 {
-  text-align: left;
   font-size: 14px;
   margin-left: 20px;
+  width: 60%;
   position: relative;
   top: 0px;
   bottom: 10px;
@@ -54,11 +56,12 @@ body.home-page {
 }
 
 .home-page p {
-  margin: 20px;
+  margin-left: 20px;
   font-size: 14px;
+  word-wrap: break-word;
   width: 60%;
   position: relative;
-  top: -10px;
+  top: -20px;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
@@ -115,18 +118,13 @@ body.home-page {
   }
 
   .home-page h3 {
-    text-align: right;
-    margin-left: auto;
     font-size: 48px;
     width: 400px;
     top: 20px;
   }
 
   .home-page h4 {
-    text-align: left;
     font-size: 32px;
-    margin-left: 20px;
-    position: relative;
     top: 0px;
     color: #FFFF;
   }
@@ -141,10 +139,8 @@ body.home-page {
 
   .home-page p {
     font-size: 18px;
-    position: relative;
-    top: -20px;
-    width: 60%;
-    word-wrap: break-word;
+    top: -30px;
+    width: 50%;
   }
 
   .home-page li {

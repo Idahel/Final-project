@@ -32,7 +32,9 @@ color: #F23D3D;
   font-size: 24px;
   color: #F23D3D;
 }
-
+.quiz-page p {
+  margin-left: 20px;
+}
 
 .quiz-page nav {
   display: flex;
@@ -110,7 +112,7 @@ color: #F23D3D;
 }
 
 .quiz-page .quiz-question{
-  margin: 20px;
+  margin-left: 20px;
   font-size: 14px;
   width: 70%;
   position: relative;
@@ -124,16 +126,12 @@ color: #F23D3D;
   width: 70%;
   position: relative;
   top: 5px;
+  margin-left: 20px;
   word-wrap: break-word;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
-.quiz-page p{
-  margin-left: 20px;
-}
-
 .quiz-page button {
-  margin-top: 20px;
   margin-left: 20px;
   font-size: 14px;
   cursor: pointer;
@@ -141,15 +139,11 @@ color: #F23D3D;
   color: #FFFF;
   border: none;
   transition: background-color 0.3s;
-  display: flex;
-  align-items: center;
-  position: relative;
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 1px;
   padding: 4px;
-  justify-content: flex-start;
   position: relative;
-  top: 5px;
+  top: 10px;
 }
 
 .quiz-page button:hover {
@@ -180,11 +174,9 @@ color: #F23D3D;
   }
 
   .quiz-page h3 {
-    text-align: right;
-    margin-left: auto;
     font-size: 48px;
     width: 400px;
-    top: 0px;
+    top: 20px;
   }
 
   .quiz-page li {
@@ -196,45 +188,36 @@ color: #F23D3D;
 
   .quiz-page .quiz-question{
     width: 70%;
-    position: relative;
-    top: -20px;
-    margin-left: 20px;
-    font-size: 16px;
+    top: 0px;
+    font-size: 18px;
     word-wrap: break-word;
   }
 
   .quiz-page .quiz-li {
     font-size: 18px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     width: 70%;
     position: relative;
-    top: -10px;
+    top: 0px;
   }
 
   .quiz-page .quiz-explanation {
     width: 70%;
-    position: relative;
-    top: -10px;
-    word-wrap: break-word;
-    font-size: 16px;
+    top: 0px;
+    font-size: 18px;
   }
 
   .quiz-page .question-number {
-    text-align: right;
-    margin-left: auto;
     width: 70%;
-    position: relative;
     font-size: 16px;
-    top: -40px;
+    top: 0px;
     
   }
 
   .quiz-page button {
-    position: relative;
     top: 0px;
     font-size: 20px;
     padding: 5px;
-    margin-left: 20px;
   }
 
   .quiz-summit {

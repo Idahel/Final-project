@@ -39,14 +39,15 @@ body.stores-page {
   text-align: left;
   font-size: 18px;
   margin-left: 20px;
+  width: 60%;
   position: relative;
   top: 0px;
-  bottom: 10px;
+  word-wrap: break-word;
   color: #F23D3D;
 }
 
 .stores-page p {
-  margin: 20px;
+  margin-left: 20px;
   font-size: 14px;
   word-wrap: break-word;
   width: 60%;
@@ -57,6 +58,7 @@ body.stores-page {
 
 .stores-page .store-link {
   position: relative;
+  font-size: 14px;
   top: -20px;
   text-decoration: none;
   color: #000000;
@@ -120,28 +122,19 @@ body.stores-page {
   }
 
   .stores-page h3 {
-    text-align: right;
-    margin-left: auto;
     font-size: 48px;
     width: 400px;
     top: 20px;
   }
 
   .stores-page h4 {
-    text-align: left;
     font-size: 32px;
-    position: relative;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 0px;
     color: #F23D3D;
   }
 
   .stores-page .store-link {
-    position: relative;
     top: -30px;
-    text-decoration: none;
-    color: #000000;
-    margin-left: 20px;
     font-size: 24px;
   }
 

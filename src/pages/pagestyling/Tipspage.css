@@ -36,21 +36,22 @@ body.tips-page {
 
 .tips-page h4{
   text-align: left;
+  font-size: 18px;
+  margin-left: 20px;
   width: 60%;
   position: relative;
-  top: 10px;
-  margin-left: 20px;
+  top: 0px;
   word-wrap: break-word;
-  font-size: 16px;
   color: #FFFF;
 }
 
 .tips-page p {
-  margin: 20px;
+  margin-left: 20px;
   font-size: 14px;
+  word-wrap: break-word;
   width: 60%;
   position: relative;
-  top: -5px;
+  top: -20px;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
@@ -93,12 +94,6 @@ body.tips-page {
 }
 
 
-.tips-page .highlighted-text {
-  word-wrap: break-word;
-  padding: 2px; /* Adjust the padding for space around the highlighted text */
-  line-height: 1.5;
-}
-
 ::selection {
   background-color:  #FFFF;
 }
@@ -114,30 +109,21 @@ body.tips-page {
   }
 
   .tips-page h3 {
-    text-align: right;
-    margin-left: auto;
     font-size: 48px;
     width: 400px;
     top: 20px;
   }
 
-  .tips-page h4{
-    text-align: left;
-    width: 50%;
-    position: relative;
-    top: 10px;
-    margin-left: 20px;
-    word-wrap: break-word;
-    font-size: 24px;
+  .tips-page h4 {
+    font-size: 32px;
+    top: 0px;
     color: #FFFF;
   }
 
   .tips-page p {
     font-size: 18px;
-    position: relative;
-    top: -15px;
+    top: -30px;
     width: 50%;
-    word-wrap: break-word;
   }
 
   .tips-page li {
