@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Quiz from './Quiz';
+import Quiz from '../components/Quiz';
 import { useEffect } from 'react';
 
 export const QuizPage = () => {
@@ -13,7 +13,6 @@ export const QuizPage = () => {
 
   return (
     <div>
-      {/* Navigation Bar */}
       <nav>
         <ul>
           <li>
@@ -28,7 +27,6 @@ export const QuizPage = () => {
         </ul>
       </nav>
 
-      {/* Content of the Home Page */}
       <h3>QUIZ - FASHION PRODUCTION</h3>
       <Quiz />
     </div>

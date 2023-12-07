@@ -4,6 +4,7 @@ import HomePage from './HomePage';
 import QuizPage from './QuizPage';
 import TipsPage from './TipsPage';
 import SecondHandStoresPage from './SecondHandStoresPage';
+import StoreDetailPage from './StoreDetailPage';
 
 const AppRoutes = () => {
   return (
@@ -25,6 +26,9 @@ const AppRoutes = () => {
           path="/second-hand-stores"
           element={<SecondHandStoresPage />}
         />
+        <Route 
+        path="/store-overview/:storeName" 
+        element={<StoreDetailPage />} />
       </Routes>
     </Router>
   );

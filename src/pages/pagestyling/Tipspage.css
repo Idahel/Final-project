@@ -1,10 +1,10 @@
-body.home-page {
+body.tips-page {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 1px;
   background-color: #F23D3D;
 }
 
-.home-page h1 {
+.tips-page h1 {
   text-align: left;
   font-size: 36px;
   margin-left: 20px;
@@ -13,7 +13,7 @@ body.home-page {
   color: #FFFF;
 }
 
-.home-page h2 {
+.tips-page h2 {
   text-align: left;
   font-size: 16px;
   margin-left: 20px;
@@ -21,12 +21,12 @@ body.home-page {
   color: #FFFF;
 }
 
-.home-page h3 {
+.tips-page h3 {
   text-align: right;
   width: 200px;
-  position: fixed;
-  top: 120px;
-  right: 0px;
+  position: relative;
+  top: 10px;
+  margin-left: auto;
   word-wrap: break-word;
   margin-right: 20px;
   font-size: 24px;
@@ -34,34 +34,45 @@ body.home-page {
   
 }
 
-.home-page p {
+.tips-page h4{
+  text-align: left;
+  width: 60%;
+  position: relative;
+  top: 10px;
+  margin-left: 20px;
+  word-wrap: break-word;
+  font-size: 16px;
+  color: #FFFF;
+}
+
+.tips-page p {
   margin: 20px;
   font-size: 14px;
-  width: 300px;
+  width: 60%;
   position: relative;
-  top: 80px;
+  top: -5px;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
 
-.home-page nav {
+.tips-page nav {
   display: flex;
   justify-content: flex-start;
   margin-left: 20px;
 }
 
-.home-page ul {
+.tips-page ul {
   list-style: none;
   padding: 0;
   display: flex;
 }
 
-.home-page li a {
+.tips-page li a {
   text-decoration: none;
   color: #000000;
 }
 
-.home-page li {
+.tips-page li {
   cursor: pointer;
   margin-right: 20px;
   text-align: center;
@@ -72,17 +83,17 @@ body.home-page {
   transition: background-color 0.3s;
 }
 
-.home-page li:hover {
+.tips-page li:hover {
   background-color: #F25252;
 }
 
-.home-page li a:hover {
+.tips-page li a:hover {
   color: #FFFF;
   text-decoration: none;
 }
 
 
-.home-page .highlighted-text {
+.tips-page .highlighted-text {
   word-wrap: break-word;
   padding: 2px; /* Adjust the padding for space around the highlighted text */
   line-height: 1.5;
@@ -94,44 +105,45 @@ body.home-page {
 
 @media (min-width: 769px) {
 
-  .home-page h1 {
+  .tips-page h1 {
     font-size: 64px;
   }
 
-  .home-page h2 {
+  .tips-page h2 {
     font-size: 36px;
   }
 
-  .home-page h3 {
+  .tips-page h3 {
     text-align: right;
-    margin-right: 20px;
+    margin-left: auto;
     font-size: 48px;
     width: 400px;
-    top: 200px;
-    right: 0px;
+    top: 20px;
   }
 
-  .home-page p {
+  .tips-page h4{
+    text-align: left;
+    width: 50%;
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+    word-wrap: break-word;
+    font-size: 24px;
+    color: #FFFF;
+  }
+
+  .tips-page p {
     font-size: 18px;
     position: relative;
-    top: 150px;
-    width: 800px;
+    top: -15px;
+    width: 50%;
+    word-wrap: break-word;
   }
 
-  .home-page li {
+  .tips-page li {
     width: 140px;
     font-size: 24px;
     margin-right: 30px;
     padding: 3px;
   }
-}
-
-@media (max-width: 768px) {
-
-
-}
-
-@media (max-width: 480px) {
-
-  
 }

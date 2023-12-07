@@ -5,10 +5,11 @@ import { Provider } from "react-redux";
 import { configureStore } from '@reduxjs/toolkit';
 import { quiz } from './reducers/quiz';
 import "./index.css";
-import "./components/ComponentsStyling/Quiz.css";
-import "./components/ComponentsStyling/Secondhandstorespage.css";
-import "./components/ComponentsStyling/Tipspage.css";
-import "./components/ComponentsStyling/Home.css";
+import "./pages/pagestyling/Quiz.css";
+import "./pages/pagestyling/Secondhandstorespage.css";
+import "./pages/pagestyling/Tipspage.css";
+import "./pages/pagestyling/Home.css";
+import "./pages/pagestyling/Storedetailpage.css";
 
 
 const store = configureStore({

@@ -1,4 +1,4 @@
-import AppRoutes from './components/AppRoutes';
+import AppRoutes from './pages/AppRoutes';
 import Header from './components/Header';
 
 export const App = () => {
