@@ -22,4 +22,4 @@ npm i && code . && npm run dev
 - Providing local information about sustainable stores in Stockholm.
 
 6. **Link to the deployed version**
-Deploy your app with Netlify (don’t forget to take care of the routes configuration by adding a .toml file), and paste the link in your README
+https://main--luminous-baklava-ff50f5.netlify.app/
