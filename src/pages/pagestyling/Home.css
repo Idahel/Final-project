@@ -2,6 +2,7 @@ body.home-page {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 1px;
   background-color: #F23D3D;
+  font-display: swap;
 }
 
 .home-page h1 {
@@ -36,7 +37,7 @@ body.home-page {
 
 .home-page h4 {
   text-align: left;
-  font-size: 18px;
+  font-size: 22px;
   margin-left: 20px;
   width: 60%;
   position: relative;

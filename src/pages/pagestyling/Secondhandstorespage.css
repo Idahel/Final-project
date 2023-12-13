@@ -2,6 +2,7 @@ body.stores-page {
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 1px;
   background-color: #FFFF;
+  font-display: swap;
 }
 
 .stores-page h1 {
@@ -18,7 +19,7 @@ body.stores-page {
   font-size: 16px;
   margin-left: 20px;
   margin-top: 0px;
-  color: #F23D3D;
+  color: #000000;
 }
 
 
@@ -37,7 +38,7 @@ body.stores-page {
 
 .stores-page h4 {
   text-align: left;
-  font-size: 18px;
+  font-size: 22px;
   margin-left: 20px;
   width: 60%;
   position: relative;
@@ -58,7 +59,8 @@ body.stores-page {
 
 .stores-page .store-link {
   position: relative;
-  font-size: 14px;
+  font-size: 20px;
+  line-height: 35px;
   top: -20px;
   text-decoration: none;
   color: #000000;
@@ -128,7 +130,7 @@ body.stores-page {
   }
 
   .stores-page h4 {
-    font-size: 32px;
+    font-size: 36px;
     margin-top: 0px;
     color: #F23D3D;
   }
