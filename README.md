@@ -3,7 +3,7 @@ You decide - a guide to make responsible fashion choices
 The app aims to empower users to make responsible fashion choices in alignment with Agenda 2030. It includes educational content, quizzes on sustainable fashion production, tips for responsible purchasing, and a directory of second-hand stores in Stockholm. The goal is to educate and inspire users to contribute to sustainable consumption patterns.
 
 Some technologies used
-- React Hooks (e.g., useEffect, useState, useCallback): You are using React Hooks for managing side effects, local component state, and optimizing performance.
+- React Hooks (e.g., useEffect, useState, useCallback): React Hooks for managing side effects, local component state, and optimizing performance.
 - React Router: React Router (BrowserRouter, Route, Routes, Link) for handling navigation in the application. 
 
 A list of your stretch goals and features I hope to implement
