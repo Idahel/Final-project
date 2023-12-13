@@ -18,7 +18,7 @@ body.tips-page {
   font-size: 16px;
   margin-left: 20px;
   margin-top: 0px;
-  color: #FFFF;
+  color: #000000;
 }
 
 .tips-page h3 {
@@ -40,7 +40,7 @@ body.tips-page {
   width: 60%;
   position: relative;
   top: 0px;
-  color: #FFFF;
+  color: #000000;
 }
 
 .tips-page p {
@@ -124,7 +124,7 @@ body.tips-page {
   .tips-page h4 {
     font-size: 32px;
     top: 0px;
-    color: #FFFF;
+    color: #000000;
   }
 
   .tips-page p {
