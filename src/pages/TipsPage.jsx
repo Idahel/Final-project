@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 export const TipsPage = () => {
+  const [activeButton, setActiveButton] = useState('');
 
   useEffect(() => {
     document.body.classList.add('tips-page');
@@ -10,18 +11,40 @@ export const TipsPage = () => {
     };
   }, []);
 
+  const handleButtonClick = (buttonName) => {
+    setActiveButton(buttonName);
+    };
+
   return (
     <div>
       <nav>
         <ul>
           <li>
-            <Link to="/">Info</Link>
+            <Link
+              to="/"
+              className={`nav-button ${activeButton === 'info' ? 'active' : ''}`}
+              onClick={() => handleButtonClick('info')}
+            >
+              Info
+            </Link>
           </li>
           <li>
-            <Link to="/quiz">Take quiz</Link>
+            <Link
+              to="/quiz"
+              className={`nav-button ${activeButton === 'quiz' ? 'active' : ''}`}
+              onClick={() => handleButtonClick('quiz')}
+            >
+              Take quiz
+            </Link>
           </li>
           <li>
-            <Link to="/second-hand-stores">Stores</Link>
+            <Link
+              to="/second-hand-stores"
+              className={`nav-button ${activeButton === 'stores' ? 'active' : ''}`}
+              onClick={() => handleButtonClick('stores')}
+            >
+              Stores
+            </Link>
           </li>
         </ul>
       </nav>
